@@ -20,7 +20,6 @@ const CommentForm = ({ campsiteId }) => {
       author: values.author,
       text: values.commentText,
     };
-
     console.log(comment);
     setModalOpen(false);
   };
